@@ -29,7 +29,7 @@ body .letter-wrapper .topbox2 {
   top: -28mm;
   width:9mm;
   height: 64mm;
-  background-color: #911404;
+  background-color: #da3d28;
   transform: rotate(100deg)skew(10deg, -50deg);
 }
 
@@ -48,7 +48,7 @@ body .letter-wrapper .topbox4 {
   top:98mm;
   width: 8mm;
   height:98mm;
-  background-color: #911404;
+  background-color: #da3d28;
   transform: rotate(190deg)skew(10deg, -50deg);
 }
 body .letter-wrapper .topbox5 {
@@ -86,7 +86,7 @@ body .letter-wrapper .topboxtitle2 {
   bottom: -28mm;
   width:9mm;
   height: 64mm;
-  background-color: #911404;
+  background-color:#da3d28;
   transform: rotate(100deg)skew(10deg, -50deg);
   z-index:1;
 }
@@ -107,7 +107,7 @@ body .letter-wrapper .topboxtitle4 {
   top:99mm;
   width: 8mm;
   height:98mm;
-  background-color:#911404;
+  background-color:#da3d28;
   transform: rotate(190deg)skew(10deg, -50deg);
 }
 body .letter-wrapper .topboxtitle5 {
@@ -160,11 +160,11 @@ body .letter-wrapper .letter-content header {
 body .letter-wrapper .letter-content header .letter-org-logo {
   font-weight: bold;
   position: absolute;
-  left:5mm;
-  top:4mm;
-  width: 50mm;
-  height:41mm;
-  margin: 5mm;
+  left:7mm;
+  top:7mm;
+  width:25mm;
+  height:34mm;
+  margin:5mm;
 }
 body .letter-wrapper .letter-content header .letter-org-logo img {
   width: 100%;
@@ -173,19 +173,19 @@ body .letter-wrapper .letter-content header .letter-org-logo img {
 body .letter-wrapper .letter-content header .letter-org-name {
   font-weight: bold;
   position: absolute;
-  left: 56mm;
-  top: 15mm;
+  left:37mm;
+  top:22mm;
   width: 100%;
   height: auto;
-  font-size: 25pt;
+  font-size:11pt;
 }
 body .letter-wrapper .letter-content header .letter-org-details {
   position: absolute;
-  left:72mm;
-  top: 25mm;
+  left:46mm;
+  top: 27mm;
   width: 100%;
   height: auto;
-  font-size: 12pt;
+  font-size:6pt;
 }
 body .letter-wrapper .letter-content header .letter-ref {
   font-weight: bold;
