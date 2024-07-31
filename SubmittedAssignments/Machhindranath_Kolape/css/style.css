@@ -1,6 +1,6 @@
 @font-face {
     font-family: sub;
-    src: url(./font/NotoSansKR-ExtraBold.ttf);
+    src: url(../font/NotoSansKR-ExtraBold.ttf);
 }
 body {
     font-family: sub;
