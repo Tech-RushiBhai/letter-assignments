@@ -161,27 +161,26 @@ body .letter-wrapper .letter-content header .letter-org-details {
 body .letter-wrapper .letter-content header .letter-ref {
   font-weight: bold;
   position: absolute;
-  left: 273mm;
+  left: 95mm;
   top: 92mm;
   width: 50%;
   height: auto;
-  font-size: 15pt;
+  font-size: 17pt;
 }
 
 body .letter-wrapper .letter-content header .letter-date {
   font-weight: bold;
   position: absolute;
-  left: 281mm;
-  top: 154mm;
-  width: 30%;
+  left: 274mm;
+  top: 92mm;
+  width: 50%;
   height: auto;
-  font-size: 15pt;
-  color: #100e0eba;
+  font-size: 17pt;
 }
 
 body .letter-wrapper .letter-content .letter-body {
   position: absolute;
-  top: 85mm;
+  top: 95mm;
   width: 300mm;
   height: 300mm;
   margin-left: 111mm;
@@ -194,7 +193,7 @@ body .letter-wrapper .letter-content .letter-body .letter-body-to {
   height: 150mm;
   font-size: 15pt;
   color: rgb(135, 134, 134);
-  top: 33mm;
+  top: 26mm;
   margin-left: 30mm;
 }
 
@@ -203,20 +202,9 @@ body .letter-wrapper .letter-content .letter-body .letter-body-to p {
 }
 
 body .letter-wrapper .letter-content .letter-body .letter-body-to1 {
-  font-weight: bold;
-  position: absolute;
-  left: 31mm;
-  top: 60mm;
-  width: 30%;
-  height: auto;
-  font-size: 17pt;
-  color: #100e0eba;
-}
-
-body .letter-wrapper .letter-content .letter-body .letter-body-subject {
   position: absolute;
   left: 15mm;
-  top: 0mm;
+  top: -6mm;
   width: calc(100% - 45mm);
   height: 20mm;
   margin-left: 15mm;
@@ -225,25 +213,47 @@ body .letter-wrapper .letter-content .letter-body .letter-body-subject {
   font-weight: bold;
 }
 
-body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+body .letter-wrapper .letter-content .letter-body .letter-body-to2 {
   position: absolute;
-  left: 15mm;
-  top: 14mm;
+  left: 14mm;
+  top: 8mm;
   width: auto;
   height: auto;
   margin-left: 15mm;
   font-weight: bold;
-  font-size: 15pt;
+  font-size: 17pt;
   color: #03a9f485;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+  font-weight: bold;
+  position: absolute;
+  left: 30mm;
+  top: 55mm;
+  width: 30%;
+  height: auto;
+  font-size: 20pt;
+  color: #100e0eba;
+}
+
+body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+  font-weight: bold;
+  position: absolute;
+  left: 31mm;
+  top: 75mm;
+  width: 30%;
+  height: auto;
+  font-size: 20pt;
+  color: #100e0eba;
 }
 
 body .letter-wrapper .letter-content .letter-body .letter-body-message {
   position: absolute;
-  top: 78mm;
+  top: 91mm;
   font-size: 12pt;
   color: rgb(135, 134, 134);
   width: 245mm;
-  left: 30mm;
+  left: 31mm;
 
 }
 
@@ -262,7 +272,7 @@ body .letter-wrapper .letter-content .letter-body .letter-body-message p {
 body .letter-wrapper .letter-content .letter-body .letter-body-sign {
   position: absolute;
   left: 15mm;
-  top: 267mm;
+  top: 275mm;
   width: auto;
   height: auto;
   margin-left: 15mm;
