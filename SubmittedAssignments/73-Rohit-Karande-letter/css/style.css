@@ -1,0 +1,493 @@
+body {
+    /*.letter-background*/
+  }
+  body .letter-wrapper {
+  
+    margin: auto;
+    overflow: hidden;
+    left: auto;
+    top: auto;
+    width: 210mm;
+    height: 297mm;
+    /* background-image: url("../img/watermark2.png"); */
+    position: relative;
+    /*.main-letter*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  }
+  body .letter-wrapper .topbox1 {
+    position: absolute;
+    
+    top: 279mm;
+    width: 210mm;
+    height: 10mm;
+    background-color:#ffffff;
+  }
+  body .letter-wrapper .topbox2 {
+    position: absolute;
+    left: 100mm;
+    top: -45mm;
+    width: 11mm;
+    height: 182mm;
+    transform: rotate(90deg);
+
+  }
+  body .letter-wrapper .topbox3 {
+    position: absolute;
+    left: 0mm;
+    top: 40mm;
+    width: 12mm; 
+    height: 12mm;
+    background-color: red;
+    transform: rotate(90deg);
+    border-right: 1mm solid black;
+
+  }
+  body .letter-wrapper .topbox4  {
+
+    position: absolute;
+    top: 54mm;
+    left: 50mm;
+    height: 1mm;
+    width: 99mm;
+    background-color: #fd2929;
+  }
+
+  body .letter-wrapper .topboxtitle {
+    position: absolute;
+    left: 199mm;
+    top: 40mm;
+    width: 102mm;
+    height: 12mm;
+    background-color: red;
+    border-bottom: 1mm solid black;
+   
+  }
+  body .letter-wrapper .bottombox1 {
+    position: absolute;
+    left: 68mm;
+    bottom: 0mm;
+    width: 75mm; 
+    height: 5mm;
+    background-color: #000000;
+  }
+  body .letter-wrapper .bottombox2 {
+    position: absolute;
+    right: -7mm;
+    bottom: 0mm;
+    width: 30mm;
+    height: 30mm;
+    background-color: #ff3c3c;
+    /* background: linear-gradient(135deg, #ff3c3c 50%, transparent 50%), linear-gradient(45deg, #ff3c3c 50%, #3c3c3c 50%); */
+    background-size: 70% 100%;
+    background-position: left top, left bottom;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 90% 68%, 100% 0);
+    rotate: -36deg;
+  }
+  body .letter-wrapper .bottombox3 {
+    position: absolute;
+    right: -14mm;
+    bottom: 24mm;
+    width: 30mm;
+    height: 30mm;
+    background-color: #ff3c3c;
+    /* background: linear-gradient(135deg, #ff3c3c 50%, transparent 50%), linear-gradient(45deg, #ff3c3c 50%, #3c3c3c 50%); */
+    background-size: 81% 85%;
+    background-position: left top, left bottom;
+    background-repeat: no-repeat;
+    clip-path: polygon(0% 14%, 77% 81%, 49% 0%);
+    rotate: 231deg;
+  }
+
+  body .letter-wrapper .bottombox4 {
+    position: absolute;
+    left: 4mm;
+    bottom: 5mm;
+    width: 30mm;
+    height: 30mm;
+    background-color: #ff3c3c;
+    /* background: linear-gradient(135deg, #ff3c3c 50%, transparent 50%), linear-gradient(45deg, #ff3c3c 50%, #3c3c3c 50%); */
+    background-size: 81% 85%;
+    background-position: left top, left bottom;
+    background-repeat: no-repeat;
+    clip-path: polygon(0% 14%, 77% 81%, 49% 0%);
+    rotate: -41deg;
+  }
+
+  body .letter-wrapper .bottombox5 {
+    position: absolute;
+    left: -20mm;
+    bottom: 14mm;
+    width: 30mm;
+    height: 30mm;
+    background-color: #ff3c3c;
+    /* background: linear-gradient(135deg, #ff3c3c 50%, transparent 50%), linear-gradient(45deg, #ff3c3c 50%, #3c3c3c 50%); */
+    background-size: 70% 100%;
+    background-position: left top, left bottom;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 90% 68%, 100% 0);
+    rotate: 54deg;
+  }
+
+  body .letter-wrapper .bottombox6 {
+
+    position: absolute;
+    width: 210mm;
+    bottom: 47mm;
+    height: 1mm;
+    background-color: #f08787;
+  }
+
+
+  body .letter-wrapper .bottombox7 {
+
+    position: absolute;
+    width: 70mm;
+    bottom: 0mm;
+    left:-1mm;
+    height: 10mm;
+    background-color: #ff3c3c;
+    transform: skew(17deg) ;
+  }
+
+  body .letter-wrapper .bottombox8 {
+
+    position: absolute;
+    width: 703mm;
+    left:143mm;
+    bottom: 0mm;
+    height: 10mm;
+    background-color: #ff3c3c;
+    transform: skew(-13deg) ;
+  }
+
+  body .letter-wrapper .bottombox9 {
+    position: absolute;
+    bottom :24mm;
+    left: 70mm;
+    height: 20mm;
+    width: 1mm;
+    background-color: #ff3c3c;
+    
+  }
+
+  body .letter-wrapper .bottombox10 {
+    position: absolute;
+    bottom :24mm;
+    left: 140mm;
+    height: 20mm;
+    width: 1mm;
+    background-color: #ff3c3c;
+
+  }
+  body .letter-wrapper .bottombox11 {
+
+    position: absolute;
+    right: 206mm;
+    bottom: 19mm;
+    width: 18mm;
+    height: 20mm;
+    background-color: #000000;
+    background-size: 70% 100%;
+    background-position: left top, left bottom;
+    background-repeat: no-repeat;
+    clip-path: polygon(15% 0%, 134% 69%, 100% 13%);
+    rotate: 60deg;
+}
+
+  
+
+  body .letter-wrapper .bottombox12 {
+    position: absolute;
+    right: 191mm;
+    bottom: 8mm;
+    width: 20mm;
+    height: 20mm;
+    background-color: #000000;
+    background-size: 52% 45%;
+    background-position: left top, left bottom;
+    background-repeat: no-repeat;
+    clip-path: polygon(10% 12%, 92% 81%, 52% -1%);
+    rotate: 320deg;
+  }
+
+  body .letter-wrapper .bottombox13 {
+
+
+    position: absolute;
+    right: -12mm;
+    bottom: 19mm;
+    width: 20mm;
+    height: 20mm;
+    background-color: #000000;
+    background-size: 52% 45%;
+    background-position: left top, left bottom;
+    background-repeat: no-repeat;
+    clip-path: polygon(10% 12%, 92% 81%, 52% -1%);
+    rotate: 230deg;
+  }
+      
+  body .letter-wrapper .bottombox14{
+
+    position: absolute;
+    right: -2mm;
+    bottom: 3mm;
+    width: 19mm;
+    height: 20mm;
+    background-color: #000000;
+    background-size: 70% 100%;
+    background-position: left top, left bottom;
+    background-repeat: no-repeat;
+    clip-path: polygon(15% 0%, 134% 69%, 100% 13%);
+    rotate: 328deg;
+}
+
+
+
+  body .letter-wrapper .letter-content {
+    /*header*/
+    /*letter-body*/
+    /*footer*/
+  }
+  body .letter-wrapper .letter-content header {
+    position: absolute;
+    left: 0mm;
+    top: 0mm;
+    width: 100%;
+    height: 5mm;
+    border-bottom: 1mm solid;
+    background-color: red;
+  }
+  body .letter-wrapper .letter-content header .letter-org-logo {
+    font-weight: bold;
+    position: absolute;
+    left: 118mm;
+    top: -24mm;
+    width: 40mm;
+    height: 50mm;
+    margin: 5mm;
+}
+  body .letter-wrapper .letter-content header .letter-org-logo img {
+    width: 27mm;
+    height: 13mm;
+    margin:57mm 0mm 0mm -70mm;
+    
+  }
+  body .letter-wrapper .letter-content header .letter-org-name {
+    font-weight: bold;
+    position: absolute;
+    left: 84mm;
+    top: 38mm;
+    width: 100%;
+    height: auto;
+    font-size: 17pt;
+    color:#fd2929;
+  }
+  body .letter-wrapper .letter-content header .letter-ref{
+    font-weight: bold;
+    position: absolute;
+    left: 117mm;
+    top: 38mm;
+    width: 100%;
+    height: auto;
+    font-size: 17pt;
+
+  }
+
+  body .letter-wrapper .letter-content header .letter-org-details {
+    position: absolute;
+    left: 85mm;
+    top: 45mm;
+    width: 100%;
+    height: auto;
+    font-size: 12pt;
+}
+  body .letter-wrapper .letter-content header .letter-date {
+    font-weight: bold;
+    position: absolute;
+    left: 165mm;
+    top: 117mm;
+    width: 30%;
+    height: auto;
+    font-size: 12pt;
+    color: red;
+  }
+  body .letter-wrapper .letter-content .letter-body {
+    position: absolute;
+    left: 0mm;
+    top: 45mm;
+    width: 100%;
+    height: 200mm;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-to {
+    position: absolute;
+    left: 15mm;
+    top: 15mm;
+    width: 70mm;
+    height: 35mm;
+    font-weight: bold;
+    font-size: 13pt;
+    margin: 0mm;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+    position: absolute;
+    left: 0mm;
+    top: 40mm;
+    width: calc(100% - 45mm);
+    height: 20mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 15pt;
+    font-weight: bold;
+    color:#e11313;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+    position: absolute;
+    left: 0mm;
+    top: 70mm;
+    width: auto;
+    height: auto;
+    margin-left: 15mm;
+    font-weight: bold;
+    font-size: 15pt;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-message {
+    position: absolute;
+    left: 0mm;
+    top: 80mm;
+    width: auto;
+    height: 115mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+    font-size: 13pt;
+    text-indent: 15mm;
+    font-family: "Times New Roman", Times, serif;
+    overflow: auto;
+    text-align: justify;
+  }
+  body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+    position: absolute;
+    left: 0mm;
+    top: 165mm;
+    width: auto;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 12pt;
+    font-weight: bold;
+  }
+
+  body .letter-wrapper .letter-content .letter-body .letter-body-sign h4 {
+
+    color:red;
+  }
+
+  body .letter-wrapper .letter-content .letter-body .letter-body-sign p {
+    margin: 0mm;
+    font-size: 10pt;
+    font-weight: normal;
+  }
+  body .letter-wrapper .letter-content .letter-footer {
+    position: absolute;
+    left: 0mm;
+    top: 256mm;
+    width: 100%;
+    height: 35mm;
+    
+  }
+  body .letter-wrapper .letter-content .letter-footer .fa {
+    width: 7mm;
+    height: 7mm;
+    border-radius: 50%;
+    padding: 1mm;
+    margin:0mm 0mm 0mm 3mm;
+    background-color: #fd2929;
+    text-align: center;
+    font-size: 12pt;
+    left:2mm;
+    position: absolute;
+   
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+    position: absolute;
+   left: 35mm;
+   top: 18mm;
+   width: auto;
+   height: auto;
+   margin-left: -9mm;
+   margin-right: 15mm;
+   font-size: 6pt;
+   font-weight: bold;
+   text-shadow: 0.2mm 0.2mm white;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-website1 {
+    position: absolute;
+   left: 35mm;
+   top: 18mm;
+   width: auto;
+   height: auto;
+   margin-left: 56mm;
+   margin-right: 15mm;
+   font-size: 6pt;
+   font-weight: bold;
+   text-shadow: 0.2mm 0.2mm white;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-website2 {
+    position: absolute;
+   left: 35mm;
+   top: 18mm;
+   width: auto;
+   height: auto;
+   margin-left: 122mm;
+   margin-right: 15mm;
+   font-size: 6pt;
+   font-weight: bold;
+   text-shadow: 0.2mm 0.2mm white;
+  }
+  body .letter-wrapper .letter-content .letter-footer .signature img {
+    height: 16mm;
+    width: 44mm;
+    position: absolute;
+    top: -25mm;
+    left: 20mm;
+   margin: 0mm 0mm 0mm -12mm ;
+  }
+
+  body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+    position: absolute;
+    left: 12mm;
+    top: 3mm;
+    width: 40%;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 13pt;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+    position: absolute;
+    left: 147mm;
+    top: 3mm;
+    width: 87mm;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 13pt;
+  }
+  body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+    position: absolute;
+    left: 80mm;
+    top: 3mm;
+    width: 100%;
+    height: auto;
+    margin-left: 15mm;
+    margin-right: 15mm;
+    font-size: 13pt;
+  }
+
+ 
+  
+  /*body*/
+  
