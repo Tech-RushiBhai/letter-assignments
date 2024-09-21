@@ -1,0 +1,167 @@
+body{
+    background-color: rgba(128, 128, 128, 0.676);
+}
+/* background-design */
+body .latter-wrapper{
+   
+    margin: auto;
+    overflow: hidden;
+    top: 20pt;
+    left: auto;
+    width: 210mm;
+    height: 297mm;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+
+}
+
+body .latter-wrapper .box1 {
+    position: absolute;
+    right: 64mm;
+    top: 0mm;
+    width: 182mm;
+    height: 14mm;
+    background-color: #000000;
+    transform: skewX(45deg);
+    
+}
+   
+body .latter-wrapper .box2{
+    
+    position: absolute;
+    left: 162mm;
+    top: -70mm;
+    width: 76mm;
+    height: 100mm;
+    background-color: #ffffff;
+    /* transform: rotate(121deg) skew(-13deg, 41deg); */
+    rotate: 45deg;
+    border: solid red;
+}
+body .latter-wrapper .box3{
+
+    /* position: absolute;
+    left: 162mm;
+    right: -70mm;
+    width: 70mm;
+    height: 90mm;
+    background-color: black;
+    rotate: 45deg; */
+    position: absolute;
+    left: 168mm;
+    top: -66mm;
+    width: 66mm;
+    height: 90mm;
+    background-color: #000000;
+    /* transform: rotate(115deg) skew(9deg, 41deg); */
+    rotate: 45deg;
+}
+body .latter-wrapper .box4{
+    position: absolute;
+    left: 171mm;
+    top: -72mm;
+    width: 61mm;
+    height: 85mm;
+    background-color: red;
+    rotate: 45deg;
+}
+body .latter-wrapper .box5{
+    position: absolute;
+    left: 64mm;
+    bottom: 0mm;
+    width: 182mm;
+    height: 14mm;
+    background-color: #000000;
+    transform: skewX(45deg);
+}
+body .latter-wrapper .box6{
+    /* transform: rotate(121deg) skew(-13deg, 41deg); */
+    position: absolute;
+    right: 162mm;
+    bottom: -70mm;
+    width: 76mm;
+    height: 100mm;
+    background-color: #ffffff;
+    rotate: 45deg;
+    border: solid red;
+}
+body .latter-wrapper .box7{
+    /* transform: rotate(115deg) skew(9deg, 41deg); */
+    position: absolute;
+    right: 168mm;
+    bottom: -66mm;
+    width: 66mm;
+    height: 90mm;
+    background-color: #000000;
+    rotate: 45deg;
+}
+body .latter-wrapper .box8{
+    position: absolute;
+    right: 171mm;
+    bottom: -72mm;
+    width: 61mm;
+    height: 85mm;
+    background-color: red;
+    rotate: 45deg;
+}
+/* this is for organisation-logo */
+body .latter-wrapper .box9 .logo{
+    position: absolute;
+    width: 128pt;
+    height: 45pt;
+    top: 41mm;
+    right: 144mm;
+}
+
+/* main containt */
+body .main-content {
+    width: 210mm;
+    height: 269mm;
+    margin-top: 14mm;
+    /* background-color: rgb(171, 235, 223); */
+
+}
+body .main-content .name{
+    position: absolute;
+    top: 70mm;
+    left: 20mm;
+}
+
+body .main-content .letter{
+    position: absolute;
+    top: 119mm;
+    margin: 0mm 20mm;
+}
+body .latter-wrapper .box9 .signature{
+    position: absolute;
+    width: 128pt;
+    height: 45pt;
+    bottom: 75mm;
+    right: 144mm;
+}
+body .main-content .signature-name{
+    position: absolute;
+    bottom: 70mm;
+    left: 20mm;
+}
+body .main-content .signature-name p{
+    position: absolute;
+    bottom: -5mm;
+    left: 0mm;
+}
+/* body .main-content .letter-footer {
+    position: absolute;
+    left: 0mm;
+    top: 256mm;
+    width: 100%;
+    height: 43mm;
+} */
+footer .email{
+    position: absolute;
+    right: 9mm;
+    bottom: 45mm;
+}
+
+
+
+
